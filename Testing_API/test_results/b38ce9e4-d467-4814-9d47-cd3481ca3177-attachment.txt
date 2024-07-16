@@ -1,0 +1,38 @@
+Метод POST
+{"status":"OK","place_id":"72c19d4ffd7f4f4a5928ea22d6e14d5c","scope":"APP","reference":"c69e951f1e9c9a4686e4741f8aeb5e3ec69e951f1e9c9a4686e4741f8aeb5e3e","id":"c69e951f1e9c9a4686e4741f8aeb5e3e"}
+Верно! Статус код: 200
+Все поля присутствуют
+status - верен
+
+Метод GET
+{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"29, side Layout, cohen 09","types":"shoe park,shop","website":"http:\/\/google.com","language":""}
+Верно! Статус код: 200
+Все поля присутствуют
+address - верен
+
+Метод PUT
+Верно! Статус код: 200
+Все поля присутствуют
+msg - верен
+
+Метод GET
+{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"100 Lenina street, RU","types":"shoe park,shop","website":"http:\/\/google.com","language":""}
+Верно! Статус код: 200
+Все поля присутствуют
+address - верен
+
+Метод DELETE
+{"status":"OK"}
+Верно! Статус код: 200
+Все поля присутствуют
+status - верен
+Новое место удалено по id
+
+Метод GET
+{"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Верно! Статус код: 404
+Все поля присутствуют
+msg - верен
+Новое место было удалено по id
+
+ТЕСТИРОВАНИЕ СОЗДАНИЯ, ИЗМЕНЕНИЯ И УДАЛЕНИЯ НОВОГО МЕСТА ПРОШЛО УСПЕШНО
